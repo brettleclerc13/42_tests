@@ -1,0 +1,33 @@
+.carousel-container {
+	max-width: 900px;
+	margin: auto;
+}
+
+.carousel-image-wrapper {
+	position: relative;
+	width: 900px;
+	height: 400px; /* ajuste selon ton besoin */
+	background-color: #f5f5f5;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.social-icon {
+	width: 32px;
+	height: 32px;
+	object-fit: contain;
+	transition: transform 0.3s;
+}
+
+.social-icon:hover {
+	transform: scale(1.1);
+}
+
+h5 {
+	color: rgb(29, 28, 28);
+}
